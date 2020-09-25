@@ -121,7 +121,7 @@ struct BottonCardView: View {
                 .frame(width: 40, height: 5)
                 .cornerRadius(3)
                 .opacity(0.1)
-            Text("Mange your personal Expense Using Expense Managment Application with friendly user interface.")
+            Text("Manage your personal Expense Using Expense Managment Application with friendly user interface.")
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4)
