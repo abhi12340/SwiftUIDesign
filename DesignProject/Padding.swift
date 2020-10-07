@@ -13,7 +13,7 @@ struct Padding: View {
     
     var body: some View {
         VStack {
-            Text("Hey Tezi")
+            Text("Hello")
                 
                 .background(start >= 20 ? Color.gray : Color.white)
                 .padding()
