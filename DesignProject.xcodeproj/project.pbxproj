@@ -13,6 +13,8 @@
 		EF3675A1251DB910005FBB49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3675A0251DB910005FBB49 /* Preview Assets.xcassets */; };
 		EF3675AC251DB910005FBB49 /* DesignProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3675AB251DB910005FBB49 /* DesignProjectTests.swift */; };
 		EF3675B7251DB910005FBB49 /* DesignProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3675B6251DB910005FBB49 /* DesignProjectUITests.swift */; };
+		EFCF95032525184200B5FCBA /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF95022525184200B5FCBA /* Padding.swift */; };
+		EFCF950B2525FD7B00B5FCBA /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF950A2525FD7B00B5FCBA /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		EF3675B2251DB910005FBB49 /* DesignProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3675B6251DB910005FBB49 /* DesignProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignProjectUITests.swift; sourceTree = "<group>"; };
 		EF3675B8251DB910005FBB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCF95022525184200B5FCBA /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		EFCF950A2525FD7B00B5FCBA /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 			children = (
 				EF367599251DB90F005FBB49 /* DesignProjectApp.swift */,
 				EF36759B251DB90F005FBB49 /* ContentView.swift */,
+				EFCF95022525184200B5FCBA /* Padding.swift */,
 				EF36759D251DB910005FBB49 /* Assets.xcassets */,
 				EF3675A2251DB910005FBB49 /* Info.plist */,
 				EF36759F251DB910005FBB49 /* Preview Content */,
+				EFCF950A2525FD7B00B5FCBA /* Grid.swift */,
 			);
 			path = DesignProject;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				EF36759C251DB90F005FBB49 /* ContentView.swift in Sources */,
 				EF36759A251DB90F005FBB49 /* DesignProjectApp.swift in Sources */,
+				EFCF95032525184200B5FCBA /* Padding.swift in Sources */,
+				EFCF950B2525FD7B00B5FCBA /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
